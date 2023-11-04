@@ -21,3 +21,89 @@ body,
   .is-hidden {
     visibility: hidden;
   }
+
+
+
+
+
+a {
+  text-decoration: none;
+}
+body{
+  background-color: bisque;
+}
+  
+.search-form {
+  display: flex;
+  align-items: center;
+  max-width: 400px; 
+  margin: 0 auto; 
+  padding: 5px;
+  background-color: #f2f2f2; 
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  background-color: bisque;
+}
+
+
+.search-form input[type="text"] {
+  flex: 1;
+  border: none; 
+  outline: none;
+  background-color: bisque;
+ 
+}
+
+
+.search-form button[name="searchBtn"] {
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 8px 16px; 
+  margin-left: 10px; 
+  cursor: pointer; 
+}
+
+
+.search-form button[name="searchBtn"]:hover {
+  background-color: #0056b3; 
+}
+
+
+b
+{
+  color: black;
+}
+
+.gallery
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+.photo-card
+{
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  text-align: center; 
+  border-color: #333;
+  background-color: #fff;
+    border-radius: 8px;
+    transition: transform .3s;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+  
+}
+.photo-card:hover {
+  transform: scale(1.1);
+}
+
+
+.gallery-link
+{
+  border-color: #333;
+}

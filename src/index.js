@@ -81,7 +81,7 @@ function createMarkup(arr) {
     return arr.map( ({webformatURL,largeImageURL,tags,likes,views,comments,downloads,}) => {
           return `<div class ="photo-card"> 
          <a class="gallery-link" href="${largeImageURL}"> 
-         <img src="${webformatURL}" alt="${tags}" loading="lazy" />
+         <img src="${webformatURL}" alt="${tags}" loading="lazy"  max-width=600px/>
          <div class="info">
          <p class="info-likes">
            <b>Likes: ${likes} </b>
